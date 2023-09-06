@@ -1,0 +1,217 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes Portfolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/portfolio.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Zanele Chigweshe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">My Work</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="content-container container">
+      <div class="content">
+        <h1 class="mb-5" style="text-align: center; padding-top: 60px">
+          Let's get in touch!
+        </h1>
+
+        <div class="container contact-links">
+          <div class="row mt-5">
+            <div class="col-md-5">
+              <div class="row">
+                <div class="col-sm-4 social-links">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="col-sm-8">
+                  <p>
+                    Contact Me:<br />
+                    <a
+                      href="mailto:zanelechigweshe@gmail.com"
+                      title="email Zanele"
+                      class="email-link"
+                      >zanelechigweshe@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-sm-4 social-links">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="col-sm-8">
+                  <p>
+                    Linked In: <br /><a
+                      href="https://www.linkedin.com/in/zanele-chigweshe-102293208"
+                      title="Zanele linkedin profile"
+                      >Zanele Chigweshe</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="row">
+                <div class="col-sm-4 social-links">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="col-sm-8">
+                  <p>
+                    GitHub:<br /><a
+                      href="https://github.com/zahhhhhh"
+                      title="github pofile link"
+                    >
+                      Zanele</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 mt-5">
+              <h2>Let's work together.<br />Drop me a line.</h2>
+            </div>
+            <div class="container mt-4">
+              <form>
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="form-group">
+                      <label for="formEmail">Email address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        required=""
+                      />
+                      <small id="formEmail" class="form-text text-muted"
+                        >Your email is safe with me.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    data-gramm="false"
+                    wt-ignore-input="true"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-branding mt-3"
+                  style="
+                    background: var(--primary-color);
+                    border-radius: 30px;
+                    color: rgb(176, 113, 185);
+                    font-size: 18px;
+                    line-height: 22px;
+                    padding: 8px 15px;
+                    margin: 5px;
+                    transition: all 300ms ease;
+                  "
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+            <footer class="text-center mb-4">
+              <div class="social-links text-center m-4">
+                <a
+                  href="https://instagram.com/codechroniclez?igshid=OGQ5ZDc2ODk2ZA=="
+                  title="instagram profile link"
+                >
+                  <i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/zanele-chigweshe-102293208"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a
+                  href="https://github.com/zahhhhhh"
+                  title="zahs github profile"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a href="mailto:zanelechigweshe@gmail.com" title="email zZanele"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </div>
+              This project was coded by🌙Zanele and is
+              <a
+                href="https://github.com/zahhhhhh/Portfolio"
+                title="git hub link"
+                >open sourced</a
+              >
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

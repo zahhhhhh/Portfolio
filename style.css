@@ -186,3 +186,11 @@ p {
 .content {
   margin: 30px;
 }
+
+@media (max-width: 766px) .contact-links {
+  text-align: center;
+}
+
+div {
+  display: block;
+}
