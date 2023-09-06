@@ -164,6 +164,7 @@ p {
 .content h1 {
   font-size: 64px;
   line-height: 80px;
+  text-align: center;
 }
 
 .content h2 {
